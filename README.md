@@ -15,8 +15,8 @@
 # 1. Клонировать репозиторий
 
 ```bash
-git clone https://git.truetecharena.ru/tta/true-tech-hack2026-localscript/players/task-repo.git
-cd task-repo
+git clone https://github.com/popyaske/LocalScript-Lua-Agent.git
+cd LocalScript-Lua-Agent
 ```
 
 # 2. Запуск сервера Ollama на хосте
