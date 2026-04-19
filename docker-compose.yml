@@ -1,0 +1,14 @@
+services:
+  lua-agent:
+    build: .
+    container_name: lua-agent-app
+    ports:
+      - "8080:8080"
+    environment:
+      - OLLAMA_URL=${OLLAMA_URL:-http://127.0.0.1:11434}
+      - MODEL_NAME=${MODEL_NAME:-deepseek-coder:6.7b-instruct-q4_K_M}
+      - OLLAMA_TIMEOUT=${OLLAMA_TIMEOUT:-120}
+    env_file:
+      - .env
+    restart: unless-stopped
+    network_mode: host
