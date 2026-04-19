@@ -2,11 +2,9 @@
 
 Локальная агентская система для генерации Lua-кода в среде MWS Octapi.
 
-**🏆 Результат хакатона MTC True Tech Hack 2026 (трек "LocalScript")**
-
-• Многокомпонентная агентская архитектура (Planner → Coder → Critic → Refactor) на Ollama + deepseek-coder:6.7b  
+• Многокомпонентная агентская архитектура (Planner → Coder → Critic → Refactor) на Ollama + deepseek-coder:6.7b
 • Итеративный пайплайн с валидацией через luac и автоисправлением за 3 цикла
-• Zero data leakage + GPU инференс → 94% успешных генераций на 50+ запросах
+• Zero data leakage + GPU инференс → 94% успешных генераций на 30+ запросах
 • Docker + FastAPI + Ollama (контекст 4096 токенов)
 
 ## Требования
