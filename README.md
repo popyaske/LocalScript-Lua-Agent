@@ -7,6 +7,8 @@
 • Zero data leakage + GPU инференс → 94% успешных генераций на 30+ запросах  
 • Docker + FastAPI + Ollama (контекст 4096 токенов)
 
+![Схема работы агента](AI-agents.png)
+
 ## Требования
 
 - Docker 20.10+
@@ -14,8 +16,6 @@
 - NVIDIA GPU с драйверами >= 525
 - NVIDIA Container Toolkit
 - 8+ GB свободной VRAM
-
-![Схема работы агента](AI-agents.png)
 
 ## Быстрый старт
 
